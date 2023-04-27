@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <!-- =====BOX ICONS===== -->
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css" integrity="sha512-cn16Qw8mzTBKpu08X0fwhTSv02kK/FojjNLz0bwp2xJ4H+yalwzXKFw/5cLzuBZCxGWIA+95X4skzvo8STNtSg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Portfolio MIJAIL NAAL</title>
 </head>
@@ -48,8 +48,8 @@
                     <a href="#contact" class="button button__transition">Contact</a>
                 </div>
                 <div class="home__social">
-                    <a href="#contact" class="home__social-icon"><i class='bx bx-mail-send'></i></a>
-                    <a href="https://github.com/MIJAIL-NAAL" target="_blank" class="home__social-icon"><i
+                    <a href="#contact" class="home__social-icon" title="Contact"><i class='bx bx-mail-send'></i></a>
+                    <a href="https://github.com/MIJAIL-NAAL" target="_blank" class="home__social-icon" title="GitHub"><i
                             class='bx bxl-github'></i></a>
                     <a href="es.html" class="home__social-icon" title="Español"><i class="bx bx-world"></i></a>
                 </div>
@@ -66,16 +66,11 @@
                 <div>
                     <h2 class="about__subtitle">I'm Mijail Naal</h2>
                     <p class="about__text">I am a Python developer and I enjoy everything about programming. I have
-                        knowledge of back-end and front-end development building web pages, sites and apps with HTML, CSS, Django and JS. To find out
+                        knowledge of back-end and front-end development building web pages and apps with HTML, CSS, Django and Flask. To find out
                         more about what I can do for you, check out my attached work below or click <a href="#work">here</a>. 
                         You can also contact me by phone, Telegram or email.
                     </p>
                     <br>
-                    <div>
-                        <a download="" href="assets/cv/cv-eng.pdf" target="_blank" class="button">
-                            Download CV <i class="fas fa-download button__icon"></i>
-                        </a>
-                    </div>
                 </div>
             </div>
         </section>
@@ -96,31 +91,32 @@
                     </div>
                     <div class="skills__data">
                         <div class="skills__names">
-                            <h3 class="skills__name">HTML</h3>
-                            <span class="skills__number">80%</span>
-                        </div>
-                        <div class="skills__bar">
-                            <span class="skills__percentage skills__html"></span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
-                            <h3 class="skills__name">CSS</h3>
-                            <span class="skills__number">70%</span>
-                        </div>
-                        <div class="skills__bar">
-                            <span class="skills__percentage skills__css"></span>
-                        </div>
-                    </div>
-                    <div class="skills__data">
-                        <div class="skills__names">
                             <h3 class="skills__name">Django</h3>
                             <span class="skills__number">80%</span>
                         </div>
                         <div class="skills__bar">
-                            <span class="skills__percentage skills__dj"></span>
+                            <span class="skills__percentage skills__django"></span>
                         </div>
                     </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <h3 class="skills__name">Flask</h3>
+                            <span class="skills__number">70%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__flask"></span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <h3 class="skills__name">SQL</h3>
+                            <span class="skills__number">80%</span>
+                        </div>
+                        <div class="skills__bar">
+                            <span class="skills__percentage skills__sql"></span>
+                        </div>
+                    </div>
+                    
                 </div>
                 <div>
                     <img src="assets/img/skills.jpg" alt="" class="skills__img">
@@ -249,7 +245,7 @@
                             <h3>Downloader</h3>
                             <br>
                             <p>Web app</p>
-                            <a href="https://mn-apps.herokuapp.com/" target="_blank" class="btn">See more</a>
+                            <a href="https://yt.up.railway.app/" target="_blank" class="btn">See more</a>
                         </div>
                     </div>
                     <div class="tech-container">
@@ -283,12 +279,46 @@
                             <h3>with Django</h3>
                             <br>
                             <p>App REST-API</p>
-                            <a href="https://mn-web-api.herokuapp.com/" target="_blank" class="btn">See more</a>
+                            <a href="https://wforecast.onrender.com/" target="_blank" class="btn">See more</a>
                         </div>
                     </div>
                     <div class="tech-container">
                         <ul class="tech-ul">
                             <li class="tech-li-2"><img src="assets/img/logos/django.svg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="work__img">
+                        <img src="assets/img/work/predictions.png" alt="">
+                        <div class="content">
+                            <h3>Predictions app</h3>
+                            <h3>with Flask</h3>
+                            <br>
+                            <p>Web App</p>
+                            <a href="https://github.com/MIJAIL-NAAL/ds-prediction" target="_blank" class="btn">Source code</a>
+                        </div>
+                    </div>
+                    <div class="tech-container">
+                        <ul class="tech-ul">
+                            <li class="tech-li-2"><img src="assets/img/logos/flask.svg" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="work__img">
+                        <img src="assets/img/work/ml-fer.png" alt="">
+                        <div class="content">
+                            <h3>Facial Expression</h3>
+                            <h3>Recognition</h3>
+                            <br>
+                            <p>ML project</p>
+                            <a href="https://github.com/MIJAIL-NAAL/ml-fer" target="_blank" class="btn">Source code</a>
+                        </div>
+                    </div>
+                    <div class="tech-container">
+                        <ul class="tech-ul">
+                            <li class="tech-li-2"><img src="assets/img/logos/flask.svg" alt=""></li>
                         </ul>
                     </div>
                 </div>
@@ -333,12 +363,12 @@
             <a href="es.html" class="footer__icon" title="Translate"><i class="bx bx-world"></i></a>
         </div>
         <p class="footer__title">MIJAIL NAAL</p>
-        <span></span>
+        <span>2021 - 2023</span>
         <p class="footer__rights"></p>
     </footer>
 
     <!--===== SCROLL REVEAL =====-->
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js" integrity="sha512-Kr+RPfLjQ71E0cJ9nseJ6jwTrnmMnuSPnnsVQQ/ZYYCjOHKfJcWj8ILICXnvf9A7ZQChNzIbr9x/ZAxA6xAZlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>
