@@ -326,17 +326,17 @@ img{
   background-color: #3d79aa;
 }
 
-.skills__html{
-  width: 80%;
+.skills__flask{
+  width: 70%;
   background-color: #e54c21;
 }
 
-.skills__css{
-  width: 70%;
+.skills__sql{
+  width: 80%;
   background-color: #264de4;
 }
 
-.skills__dj{
+.skills__django{
   width: 80%;
   /*background-color: #0c4b33;*/
   /*background-color: #38a179;*/
