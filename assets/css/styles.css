@@ -343,6 +343,11 @@ img{
   background-color: #187f58;
 }
 
+.skills__fastapi{
+  width: 70%;
+  background-color: #059a8c;
+}
+
 .skills__img{
   border-radius: .5rem;
 }
@@ -411,6 +416,28 @@ img{
 .tech-li-2 img {
   height: 50px;
 }
+
+.tech-li-3 img {
+  height: 45px;
+  padding-right: 10px;
+}
+
+/* .tech-li-4 img {
+  height: 50px;
+  padding-right: 10px;
+}*/
+
+.tech-li-fastapi img {
+  height: 35px;
+  padding-top: 5px;
+
+}
+/*
+.tech-li-flask img {
+  height: 50px;
+  padding-right: 10px;
+} */
+
 /* ===== CONTACT =====*/
 /******************************************/
 
